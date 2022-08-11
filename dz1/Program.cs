@@ -1,5 +1,5 @@
-﻿// Tasc 1
-Console.WriteLine("--Tasc 1--");
+﻿// Task 1
+Console.WriteLine("--Task 1--");
 Console.WriteLine("Enter 1 number");
 int a= Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter 2 number");
@@ -9,8 +9,8 @@ if (a<b){Console.WriteLine("1 number- MIN, 2 number-MAX");}
 if (a==b){Console.WriteLine("the numbers are equal");}
 Console.WriteLine();
 
-// Tasc 2
-Console.WriteLine("--Tasc 2--");
+// Task 2
+Console.WriteLine("--Task 2--");
 Console.WriteLine("Enter 1 number");
 int c= Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter 2 number");
@@ -24,16 +24,16 @@ if (e>max) {max=e;}
 Console.WriteLine("max number "+ max);
 Console.WriteLine();
 
-// Tasc 3
-Console.WriteLine("--Tasc 3--");
+// Task 3
+Console.WriteLine("--Task 3--");
 Console.WriteLine("Enter  number");
 int g= Convert.ToInt32(Console.ReadLine());
 if (g%2==0) {Console.WriteLine(g+ " -is even number");}
 else Console.WriteLine(g+ " -is not even number");
 Console.WriteLine();
 
-// Tasc 4
-Console.WriteLine("--Tasc 4--");
+// Task 4
+Console.WriteLine("--Task 4--");
 Console.WriteLine("Enter  number");
 int number= Convert.ToInt32(Console.ReadLine());
 for (int i=1;i<number;i++ ) {
